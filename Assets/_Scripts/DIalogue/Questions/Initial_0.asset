@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c0f76c396e524b8173ead234ff53a, type: 3}
+  m_Name: Initial_0
+  m_EditorClassIdentifier: 
+  text: choose starting conditions
+  choices:
+  - text: cold climate
+    conversation: {fileID: 11400000, guid: 9ca8df27d815855479b2932084540950, type: 2}
+  - text: hot climate
+    conversation: {fileID: 11400000, guid: 4145aec79e824584a86cad011b130ba2, type: 2}

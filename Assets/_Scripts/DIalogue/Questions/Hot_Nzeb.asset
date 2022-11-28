@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c0f76c396e524b8173ead234ff53a, type: 3}
+  m_Name: Hot_Nzeb
+  m_EditorClassIdentifier: 
+  text: Choose one option
+  choices:
+  - text: yes
+    conversation: {fileID: 11400000, guid: 03b0be9dca372314ea8a51e56386040b, type: 2}
+    points: 1000
+  - text: only if foreseen by the  project
+    conversation: {fileID: 11400000, guid: 03b0be9dca372314ea8a51e56386040b, type: 2}
+    points: 500
+  - text: No
+    conversation: {fileID: 11400000, guid: 03b0be9dca372314ea8a51e56386040b, type: 2}
+    points: 10
