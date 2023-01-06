@@ -155,7 +155,7 @@ MonoBehaviour:
   orientationPoint: {fileID: 1802031940}
   sensitivityHor: 5
   sensitivityVert: 4
-  minimumVert: -55
+  minimumVert: 6.6
   maximumVert: 55
   maxZoomIn: 5
   maxZoomOut: 15
