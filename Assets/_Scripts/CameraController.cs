@@ -134,6 +134,7 @@ public class CameraController : MonoBehaviour
                     if (GameManager.Instance.rooms.Contains(room))
                     {
                         GameManager.Instance.currentRoom = GameManager.Instance.rooms[GameManager.Instance.rooms.IndexOf(room)];
+                        Debug.Log("currentRoom is now " + GameManager.Instance.rooms[GameManager.Instance.rooms.IndexOf(room)].name + "  @ 137 @ CameraController.cs line");
                     }
                     GameObject.FindObjectOfType<WindowManager>().haveToCheck = true;
                     //GameManager.Instance.currentRoom.isActive = true;
@@ -142,7 +143,17 @@ public class CameraController : MonoBehaviour
             else
             {
                 //GameManager.Instance.currentRoom.isActive = false;
-                GameManager.Instance.currentRoom = null;
+                try
+                {
+                    GameManager.Instance.currentRoom = null;
+                }
+                catch (System.Exception ee)
+                {
+                    Debug.Log("Excweption at 148 @ CameraController.cs =>>> " + ee.Message);
+                    throw;
+                }
+                
+                Debug.Log("currentRoom is now null. @ 145 @ CameraController.cs line");
             }
 
         }
